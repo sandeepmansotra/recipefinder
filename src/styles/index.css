@@ -1,0 +1,44 @@
+body {
+  background-image: url("../back.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: none;
+  opacity: 0.8;
+  text-align: center;
+  padding: 5%;
+}
+.recipe-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.recipe-text {
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+.recipe-img {
+  display: inline-block;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.star {
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 550px;
+}
+.link {
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
